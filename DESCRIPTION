@@ -1,0 +1,16 @@
+Package: rsBayes
+Title: Bayesian Models for Remotely Sensed Data
+Version: 0.1.0
+Date: 2020-09-04
+Authors@R: c(person("Andrew", "Finley", role=c("aut", "cre"), email="finleya@msu.edu"), person("Chad", "Babcock", role="aut", email="cbabcock@umn.edu"))
+Author: Andrew Finley [aut, cre], Chad Babcock [aut]
+Maintainer: Andrew Finley <finleya@msu.edu>
+Description: Models and associated tools for Bayesian inference of remotely sensed variables.
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+LazyData: true
+Imports: coda
+NeedsCompilation: yes
+RoxygenNote: 7.0.2
+Packaged: 2020-09-05 17:02:26 UTC; andy

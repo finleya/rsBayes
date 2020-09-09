@@ -1,0 +1,16 @@
+useDynLib(rsBayes)
+
+export(pheno)
+
+S3method("fitted", "pheno")
+S3method("residuals", "pheno")
+S3method("print", "pheno")
+S3method("plot", "pheno")
+S3method("summary", "pheno")
+S3method("predict", "pheno")
+S3method("print", "predict.pheno")
+
+importFrom("stats", "runif", "coefficients", "lm", "contrasts", "is.empty.model", "model.matrix", "model.response", "terms", "dnorm", "pnorm", "dbinom", "glm", "rnorm", "var", "rbinom", "fitted", "quantile", "rgamma", "rbeta", "sd")
+
+importFrom("coda", "mcmc")
+

@@ -1,0 +1,3 @@
+PKG_LIBS = $(BLAS_LIBS) $(FLIBS) -L/opt/intel/mkl/lib/intel64/
+
+

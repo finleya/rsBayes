@@ -14,3 +14,5 @@ importFrom("stats", "runif", "coefficients", "lm", "contrasts", "is.empty.model"
 
 importFrom("coda", "mcmc")
 
+import("raster")
+
